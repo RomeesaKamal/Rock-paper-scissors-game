@@ -289,12 +289,10 @@ body {
 
 .modal {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+  bottom: 0;
+  right: 0;
   display: grid;
-  place-items: center;
+  place-items: end;
   background: var(--shadow-med);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -328,12 +326,23 @@ body {
   pointer-events: initial;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Footer */
 .footer {
-  position: absolute;
-  bottom: 2rem;
+  margin-top: 15rem;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 6arem;
   text-align: center;
 }
 
@@ -354,8 +363,8 @@ body {
   display: none;
 }
 
-@media(max-width:768px){
-  body{
+@media (max-width: 768px) {
+  body {
     height: 100vh;
   }
 }
