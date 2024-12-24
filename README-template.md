@@ -1,22 +1,26 @@
-# Frontend Mentor - Rock, Paper, Scissors solution
+![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 
-This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://romeesakamal.github.io/Rock-paper-scissors-game/). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+# Rock, Paper, Scissors solution
+The Rock, Paper, Scissors Game is a fun, interactive web application that recreates the classic hand game in a digital format. This project allows users to play against the computer in an engaging and visually appealing interface. With randomized computer choices and instant feedback, it provides an exciting experience for players of all ages.
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Usage](#usage)
+  - [Setup](#setup)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Live Demo](#-live-demo)
 - [Author](#author)
+- [Contributing](#-contributing)
+- [Show your support](#show-your-support)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [License](#-license)
 
 ## Overview
 
@@ -31,20 +35,77 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://your-solution-url.com)
+- Live Site URL: [live site URL here](https://your-live-site-url.com)
+
+### Features
+
+1. #### Classic Gameplay
+
+- Players choose between Rock, Paper, or Scissors.
+
+**The game compares the choices and determines the winner based on the classic rules**:
+
+- Rock crushes Scissors.
+- Scissors cut Paper.
+- Paper covers Rock.
+
+2. #### Player vs Computer
+
+- The game includes an AI opponent.
+
+- The computer’s choice is randomized to ensure fairness.
+
+3. #### Interactive User Interface
+
+- A clean and responsive design allows users to easily make their choices.
+
+- Visual feedback (e.g., icons or animations) for player and computer selections.
+
+4. #### Scoreboard
+
+- Tracks the score for both the player and the computer throughout the session.
+
+- Displays the current score after each round.
+
+5. #### Game Results
+
+- Clearly displays the winner of each round (Player, Computer, or Draw).
+
+- Provides instant feedback on how the winner was decided (e.g., "Rock beats Scissors").
+
+6. #### Reset Option
+
+- Allows the player to reset the scores and start a new game.
+
+7. #### Mobile Friendly
+
+- Fully responsive design for smooth gameplay on both desktop and mobile devices.
+
+### Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+Prerequisites
+VIsual Studio Code.
+A Web Browser (preferably Brave)
+
+### Setup
+
+Clone the GitHub Repository
+
+- git clone "https://github.com/RomeesaKamal/Rock-paper-scissors-game.git"
+
+### Usage
+
+- Open the app in your browser.
+- Select the password length using the slider.
+- Choose which character types you want to include in the password (lowercase, uppercase, numbers, and special characters).
+- Click the "Generate Password" button to create a password.
 
 ## My process
 
@@ -55,59 +116,65 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- **Sound Effects**: Add fun audio feedback for player choices, wins, and losses.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+#### **Rounds or Timed Mode**: Introduce game modes:
 
-### Useful resources
+- Play a fixed number of rounds (e.g., Best of 3 or 5).
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Timed mode to achieve the highest score within a set duration.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Customization Options: Allow players to change themes (e.g., light/dark mode or custom backgrounds).
+
+- **Animations**: Include dynamic animations for player and computer choices for a more engaging experience.
+
+- **Multiplayer Mode**: Enable two players to compete against each other on the same device or online.
+
+- **Extended Version**: Add "Lizard" and "Spock" options for fans of the expanded game rules.
+
+- **Statistics Tracker**: Show detailed stats like win/loss ratio and total games played.
+
+- **Accessibility Features**: Ensure keyboard navigation and screen reader compatibility.
+
+- **AI Improvements**: Add difficulty levels for the computer opponent.
+
+## 🌎 Live Demo:
+
+- [Live Demo Link](https://romeesakamal.github.io/Rock-paper-scissors-game/)
 
 ## Author
 
-- Website - [Romeesa Kamal](https://romeesakamal.github.io/Rock-paper-scissors-game/)
-- Frontend Mentor - [@Romeesakamal](https://www.frontendmentor.io/profile/RomeesaKamal)
+### 👤 **Romeesa Kamal**
 
+- GitHub: [@kamalromeesa](https://github.com/RomeesaKamal/)
+- Fronted Mentor: [@Romeesakamal](https://www.frontendmentor.io/profile/RomeesaKamal)
+- Linkedin: [@Romeesakamal](https://www.linkedin.com/in/romeesa-kamal-7864b8342/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Thanks to the Mujeeb ur Rehman for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedback.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+## 📝 License
+
+This project is MIT licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+
+
+
